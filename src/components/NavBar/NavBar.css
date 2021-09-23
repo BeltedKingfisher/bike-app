@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 60px;
+  background-color: rgb(23, 26, 26);
+  align-items: center;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.fa-times {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.menu-icon {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  z-index: 12;
+}

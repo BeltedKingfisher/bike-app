@@ -1,0 +1,30 @@
+.sidebar-container {
+  max-width: 400px;
+  position: absolute;
+  top: 0;
+  height: 50vh;
+}
+
+.sidebar-menu {
+  display: block;
+  list-style: none;
+  max-width: 350px;
+  height: 100%;
+  background-color: black;
+  padding: 60px 20px;
+}
+
+.nav-dropdown {
+  text-align: left;
+  padding: 2rem;
+  width: 100%;
+  display: table;
+  list-style: none;
+  text-decoration: none;
+  color: grey;
+}
+
+.nav-dropdown:hover {
+  background-color: whitesmoke;
+  border-radius: 0;
+}
