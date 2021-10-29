@@ -6,16 +6,22 @@
   font-family: "Shadows Into Light Two", cursive;
   background-color: rgb(23, 26, 26);
   height: 100vh;
+  max-width: 100%;
 }
 
 .home-image {
   display: block;
   margin-right: 30%;
   margin-left: auto;
-  width: 62%;
+  width: 850px;
+  height: 550px;
 }
 
 h1 {
   text-align: center;
   color: grey;
+}
+
+.area {
+  cursor: pointer;
 }

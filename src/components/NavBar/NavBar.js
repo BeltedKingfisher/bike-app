@@ -1,6 +1,6 @@
-import React, { useState, Fragment } from "react";
-import { MenuItems } from "./MenuItems";
-import SidebarMenu from "./SidebarMenu";
+import React, { useState } from "react";
+// import { MenuItems } from "./MenuItems";
+// import SidebarMenu from "./SidebarMenu";
 import "./NavBar.css";
 
 //TODO: Formatting for dropdown menu - css files are conflicting with each other?
@@ -19,7 +19,7 @@ const NavBar = (props) => {
     <header>
       <nav className="menu-icon">
         <div onClick={menuClickHandler}>
-          <i className={isClicked ? "fas fa-times" : "fas fa-bars"}></i>
+          <i className={sidebar ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
       </nav>
     </header>

@@ -1,0 +1,15 @@
+.home-image {
+  display: block;
+  margin-right: 30%;
+  margin-left: auto;
+  width: 850px;
+  height: 550px;
+}
+
+.areaStuff {
+  cursor: pointer;
+  pointer-events: auto;
+}
+.tooltip {
+  background-color: red;
+}

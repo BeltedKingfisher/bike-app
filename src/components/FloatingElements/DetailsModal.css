@@ -1,0 +1,42 @@
+.test-detail {
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  left: calc(50% - 300px);
+  background-color: #222;
+  color: white;
+  width: 560px;
+  padding: 25px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  z-index: 50;
+}
+
+.myModal {
+  background-color: #222;
+  color: white;
+  font-family: "Shadows Into Light Two", cursive;
+  list-style: none;
+}
+
+.myModalHeader {
+  font-weight: 700;
+  font-size: x-large;
+  text-align: right;
+}
+
+.list {
+  list-style: none;
+}
+
+.componentImages {
+  height: 100px;
+  width: 125px;
+  vertical-align: top;
+}
+
+.componentFacts {
+  padding-bottom: 10px;
+  inline-size: 325px;
+  color: white;
+}
