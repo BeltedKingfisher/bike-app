@@ -3,8 +3,6 @@ import React, { useState } from "react";
 // import SidebarMenu from "./SidebarMenu";
 import "./NavBar.css";
 
-//TODO: Formatting for dropdown menu - css files are conflicting with each other?
-
 const NavBar = (props) => {
   const { sidebar, setSidebarOpen } = props;
 
