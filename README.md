@@ -1,4 +1,6 @@
-# Description
+# Bike App
+
+## Description
 
 I created an interactive bicycle manual for beginners.  My app allows the user to interact with different parts of a bicycle and learn the vocabulary and variations of components. It features:
 * An interactive map of a bicycle and a dropdown menu for different bike types
@@ -10,7 +12,7 @@ I created an interactive bicycle manual for beginners.  My app allows the user t
 
 This project was built with JavaScript, React, HTML, CSS, JSX, Jest, and Bootstrap 4.0. It uses the API call to JSONBin, which I built to house my research findings for the information displayed about bicycles.
 
-### Future Features
+## Future Features
 
 * More labeled components
 * An alternative to the current pointer event that is browser-specific
