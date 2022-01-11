@@ -29,7 +29,7 @@ const DetailsModal = (props) => {
                         <td>
                           <img
                             className="componentImages"
-                            src={`images/${image}`}
+                            src={`../images/${image}`}
                             alt={image}
                           />
                         </td>
